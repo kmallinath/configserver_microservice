@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: testing-configserver
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8084/eureka/
+    registerWithEureka: true
+    fetchRegistry: true
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
